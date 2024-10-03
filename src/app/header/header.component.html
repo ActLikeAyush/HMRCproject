@@ -1,8 +1,7 @@
 <header>
     <div [ngClass]="{'scrolled': isScrolled}" class="container">
         <a href="#" routerLink="/" class="logo">
-            <img src="assets/images/NavLogo.png" alt="logo"> <!-- Corrected path -->
-            
+            <img src="assets/images/NavLogo.png" alt="logo">
         </a>
         <nav>
             <div class="nav">
@@ -15,5 +14,26 @@
             </div>
         </nav>
         <a href="#" routerLink="/"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <button class="signup-btn" (click)="openSignupModal()">Sign Up</button>
     </div>
 </header>
+
+<!-- Signup Modal -->
+<div class="modal" *ngIf="isModalOpen">
+    <div class="modal-content">
+        <span class="close" (click)="closeSignupModal()">&times;</span>
+        <h2>Sign Up</h2>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</div>
