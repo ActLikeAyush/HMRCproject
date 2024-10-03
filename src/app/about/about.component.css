@@ -1,0 +1,82 @@
+.container{
+    padding: 5%;
+}
+.head{
+    width: 40%;
+
+}
+.allmain{
+    display: flex;
+    align-items: flex-start;
+    gap: 90px;
+    
+}
+
+
+.head h3 {
+    color: aqua;
+    font-size: 24px;
+    /* text-align: center; */
+    font-family: "Jost", sans-serif;
+    /* margin-left: 20px; */
+    /* Small indent */
+    text-decoration: underline;
+    /* Adds underline */
+}
+
+.head h1:first-of-type {
+    font-family: "Jost", sans-serif;
+    color: blue;
+    font-size: 56px;
+    /* margin-left: 50px; */
+    /* Large indent for first h1 */
+}
+
+.head h1 span {
+    color: rgb(55, 42, 42);
+}
+
+.head h1:nth-of-type(2) {
+    font-family: "Jost", sans-serif;
+    color: blue;
+    font-size: 36px;
+    /* margin-left: 30px; */
+    /* Smaller indent for second h1 */
+}
+
+.head p {
+    font-family: "Jost", sans-serif;
+    color: #333;
+    /* margin-left: 40px; */
+    /* Align paragraphs consistently */
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.img{
+    max-width: 50%;
+    margin-top: -40px;
+}
+.img img{
+    width: 100%;
+}
+.main {
+    display: flex;
+    max-width: 40%;
+    flex-wrap: wrap;
+}
+.card{
+    width: 50%;
+
+}
+.card h1{
+    font-family: "Jost", sans-serif;
+    color: rgb(112, 200, 216);
+}
+ i{
+    color: rgb(0, 89, 255);
+}
+.card p{
+    font-family: "Jost", sans-serif;
+    color: #333;
+}

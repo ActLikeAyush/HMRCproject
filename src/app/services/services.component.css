@@ -1,0 +1,145 @@
+/* Container Styles */
+.container {
+    padding: 5%;
+    background-color: #f9f9f9;
+    /* Light background for contrast */
+    border-radius: 10px;
+    /* Rounded corners for the container */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+}
+
+/* Main Text Styles */
+.mainText h3 {
+    color: #ff4081;
+    /* Pink */
+    font-size: 24px;
+    font-family: "Jost", sans-serif;
+    text-decoration: underline;
+    text-align: center;
+    /* Center aligned */
+}
+
+.mainText h1.title-main {
+    font-family: "Jost", sans-serif;
+    color: #3f51b5;
+    /* Blue */
+    font-size: 56px;
+    text-align: center;
+    /* Center aligned */
+}
+
+.mainText h1 span {
+    color: #673ab7;
+    /* Purple */
+}
+
+.mainText p {
+    font-family: "Jost", sans-serif;
+    color: #333;
+    line-height: 1.6;
+    font-size: 18px;
+    text-align: center;
+    /* Center aligned */
+}
+
+/* Service Cards Container */
+.service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Center the cards */
+    gap: 20px;
+    /* Space between cards */
+    margin-top: 20px;
+    /* Space above cards */
+}
+
+/* Card Styles */
+.card {
+    background-color: #ffffff;
+    /* White background for cards */
+    border-radius: 10px;
+    /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+    width: 30%;
+    /* Width of each card */
+    padding: 20px;
+    /* Inner padding */
+    text-align: center;
+    /* Center content */
+    transition: transform 0.3s;
+    /* Smooth hover effect */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    /* Lift effect on hover */
+}
+
+/* Icon Styles */
+.icon {
+    font-size: 40px;
+    /* Increase icon size */
+    color: #3f51b5;
+    /* Blue color for icons */
+    margin-bottom: 15px;
+    /* Space below icon */
+}
+
+/* Body Styles */
+.body {
+    display: flex;
+    flex-direction: column;
+    /* Stack content vertically */
+    align-items: center;
+    /* Center items */
+}
+
+/* Service ID Styles */
+.service-id {
+    font-size: 24px;
+    /* Larger font for ID */
+    color: #673ab7;
+    /* Purple */
+}
+
+/* Card Content Styles */
+.card-content h3 {
+    font-family: "Jost", sans-serif;
+    color: #ff4081;
+    /* Pink */
+    font-size: 22px;
+    /* Heading size */
+    margin: 10px 0;
+    /* Margin around heading */
+}
+
+.card-content p {
+    font-family: "Jost", sans-serif;
+    color: #333;
+    font-size: 16px;
+    /* Smaller font size for description */
+}
+
+/* Read More Button Styles */
+.read-more {
+    background-color: #00bcd4;
+    /* Sky blue */
+    color: white;
+    /* White text */
+    padding: 10px 20px;
+    /* Padding for button */
+    border-radius: 5px;
+    /* Rounded corners */
+    text-decoration: none;
+    /* Remove underline */
+    transition: background-color 0.3s;
+    /* Smooth background color change */
+}
+
+.read-more:hover {
+    background-color: #008c9e;
+    /* Darker sky blue on hover */
+}

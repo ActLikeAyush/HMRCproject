@@ -88,20 +88,3 @@
     transform: translateY(0);
     /* Move to its original position */
 }
-
-
-.pre-title {
-    position: relative;
-    font-size: 1rem;
-    font-weight: 600;
-    letter-spacing: 1px;
-    text-align: left;
-    text-transform: uppercase;
-    display: block;
-    width: max-content;
-    margin-bottom: 0;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: var(--clr-main);
-    z-index: 5;
-}

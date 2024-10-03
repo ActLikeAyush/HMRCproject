@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="mainText">
+    <h3>Services</h3>
+    <h1 class="title-main"><span>Services</span> we offer</h1>
+    <p>We specialize in creating modern, responsive websites tailored to our clients' needs. From simple landing pages
+      to complex web applications, we have the expertise to bring your ideas to life.</p>
+  </div>
+  <div class="service-cards">
+    <div *ngFor="let service of services" class="card">
+      <div class="icon">
+        <i class="{{ service.icon }}"></i>
+      </div>
+      <div class="body">
+        <!-- <span class="service-id">{{ service.id }}</span>  -->
+        <div class="card-content">
+          <h3>{{ service.title }}</h3>
+          <p>{{ service.description }}</p>
+        </div>
+        <a [href]="service.link" class="read-more">Read More</a>
+      </div>
+    </div>
+  </div>
+</div>
