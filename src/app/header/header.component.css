@@ -19,7 +19,7 @@ header.scrolled {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 }
 .logo img{
-    width: 20%;
+    width: 50%;
 }
 .container {
     display: flex;
