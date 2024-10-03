@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+    /* background-image: url('app/assets/images/img.gif'); */
+        /* background-size: cover; */
+        /* Cover the entire header */
+        /* background-position: center; */
+        /* Center the image */
+        /* background-repeat: no-repeat; */
+
+}
+a{
+    text-decoration: none;
+}
