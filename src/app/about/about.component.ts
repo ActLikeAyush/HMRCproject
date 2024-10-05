@@ -11,6 +11,7 @@ interface Card {
   selector: 'app-about',
   standalone: true,
   imports: [CommonModule], // Add CommonModule to imports
+   template: `<h1>Welcome to the Home Page</h1>`,
   templateUrl: './about.component.html',
   styleUrls: ['./about.component.css']
 })
@@ -39,3 +40,4 @@ export class AboutComponent {
     // Add more cards as needed
   ];
 }
+

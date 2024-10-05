@@ -1,8 +1,11 @@
 import { Routes } from '@angular/router';
-import { HeaderComponent } from './header/header.component';
-
+import { MainComponent } from './main/main.component';       // Import MainComponent
+import { ServicesComponent } from './services/services.component'; // Import ServicesComponent
+import { AboutComponent } from './about/about.component';    // Import AboutComponent
 
 export const routes: Routes = [
-  { path: '', component: HeaderComponent },  // Default route
- 
+  { path: '', component: MainComponent },              // Default route (MainComponent)
+  { path: 'services', component: ServicesComponent },  // Services route
+  { path: 'about', component: AboutComponent },        // About route
+  { path: '**', redirectTo: '' },                      // Redirect invalid paths to home
 ];

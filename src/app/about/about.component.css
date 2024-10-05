@@ -57,6 +57,9 @@
     max-width: 50%;
     margin-top: -40px;
 }
+.img:hover{
+    transform: translateY(-5px);
+}
 .img img{
     width: 100%;
 }

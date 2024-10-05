@@ -4,6 +4,7 @@ import { Component, HostListener } from '@angular/core';
   selector: 'app-main',
   standalone: true,
   templateUrl: './main.component.html',
+    template: `<h1>Main Component</h1>`,
   styleUrls: ['./main.component.css']
 })
 export class MainComponent {
