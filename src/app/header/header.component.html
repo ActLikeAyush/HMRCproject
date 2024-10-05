@@ -14,7 +14,7 @@
             </div>
         </nav>
         <a href="#" routerLink="/"><i class="fa-solid fa-magnifying-glass"></i></a>
-        <button class="signup-btn" (click)="openSignupModal()">Sign Up</button>
+        <button class="signup-btn" (click)="openSignupModal()">Join us</button>
     </div>
 </header>
 
@@ -22,7 +22,7 @@
 <div class="modal" *ngIf="isModalOpen">
     <div class="modal-content">
         <span class="close" (click)="closeSignupModal()">&times;</span>
-        <h2>Sign Up</h2>
+        <h2>Join us</h2>
         <form>
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
