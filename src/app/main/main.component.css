@@ -1,3 +1,82 @@
+.main-content1{
+    margin-top: 150px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.text{
+    width: 40%;
+}
+.text h1{
+    font-size: 50px;
+    color: rgb(3, 3, 95);
+}
+.text h4{
+    color: rgb(3, 3, 95);
+    font-size: 25px;
+
+}
+
+.butt{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+#one{
+    background-color:rgb(3, 3, 95) ;
+    border: none;
+    border-radius: 40px;
+    /* font-size: 40px; */
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+#one:hover{
+    font-size: 20px;
+    /* width: 160px; */
+    /* height: 60px; */
+    background-color: rgb(5, 5, 228);
+
+}
+#two{
+    background-color: transparent;
+    border: none;
+    color: rgb(3, 3, 95);
+    font-size: 40px;
+}
+#two:hover{
+    font-size: 45px;
+    color: rgb(5, 5, 228);
+
+}
+
+/* .text.animate {
+    opacity: 1;
+    transform: translateY(0);
+    /* Move to its original position */
+/* } */
+/*.text {
+    opacity: 0;
+    transform: translateY(70px);
+    /* Start with the element positioned below */
+    /* transition: all 0.5s ease-out; */
+/* }*/
+
+
+
+
+
+
+
+
+
+
 .container {
     margin-top: 120px;
     display: flex;
@@ -6,7 +85,11 @@
     gap: 0%;
     flex-wrap: wrap;
 }
-
+/* .mainText h4{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(1, 1, 90);
+    font-size: 24px;
+} */
 .mainText {
     width: 40%;
 }
@@ -24,7 +107,7 @@
 
 .mainText h1:first-of-type {
     font-family: "Jost", sans-serif;
-    color: blue;
+    color: rgb(3, 3, 95);
     font-size: 56px;
     /* margin-left: 50px; */
     /* Large indent for first h1 */
@@ -87,4 +170,177 @@
     opacity: 1;
     transform: translateY(0);
     /* Move to its original position */
+}
+
+
+.miss{
+    margin-top: 90px;
+    margin-bottom: 90px;
+    gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.m-text{
+    width: 60%;
+    max-width: 600px;
+}
+.miss-img{
+    width: 50%;
+}
+.miss-img img{
+    max-width: 600px;
+    
+}
+
+.m-text h3{
+    color: aqua;
+        font-size: 24px;
+        /* text-align: center; */
+        font-family: "Jost", sans-serif;
+        /* margin-left: 20px; */
+        /* Small indent */
+        text-decoration: underline;
+}
+
+.m-text h1{
+    font-family: "Jost", sans-serif;
+        color: rgb(3, 3, 95);
+        font-size: 45px;
+}
+.m-text h1 span{
+    color: black;
+}
+.m-text p{
+    font-family: "Jost", sans-serif;
+        color: #333;
+        /* margin-left: 40px; */
+        /* Align paragraphs consistently */
+        line-height: 1.6;
+        font-size: 18px;
+}
+
+
+
+
+.partner{
+    margin-bottom: 90px;
+    margin-top: 90px;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    align-content: center;
+    justify-content: center;
+}
+.par-text{
+    display: flex;
+    flex-direction: column;
+    
+    /* justify-content: center; */
+    /* align-content: center; */
+    /* text-align: center; */
+    width: 30%;
+}
+.par-img1{
+    width: 30%;
+    margin-top: 85px;
+}
+.par-img2{
+    width: 39%;
+}
+.par-text h1{
+        font-family: "Jost", sans-serif;
+            color: rgb(3, 3, 95);
+            font-size: 45px;
+}
+.par-text h1 span{
+    color: black;
+}
+.par-text h3{
+    color: aqua;
+        font-size: 24px;
+        /* text-align: center; */
+        font-family: "Jost", sans-serif;
+        /* margin-left: 20px; */
+        /* Small indent */
+        text-decoration: underline;
+}
+.par-text p{
+    margin-top: -10px;
+    font-family: "Jost", sans-serif;
+        color: #333;
+        /* margin-left: 40px; */
+        /* Align paragraphs consistently */
+        line-height: 1.6;
+        font-size: 18px;
+}
+
+
+
+
+
+.choose{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.ch-img{
+    max-width: 50%;
+}
+.ch-img img{
+    /* width: 90%; */
+}
+.ch-main-text{
+    max-width: 40%;
+}
+.ch-main-text .container {
+    /* padding: 20px; */
+    max-width: 800px;
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+    /* padding: 20px 0; */
+}
+.header h3{
+    color: aqua;
+        font-size: 24px;
+        /* text-align: center; */
+        font-family: "Jost", sans-serif;
+        /* margin-left: 20px; */
+        /* Small indent */
+        text-decoration: underline;
+}
+.header h1{
+    font-family: "Jost", sans-serif;
+        color: rgb(3, 3, 95);
+        font-size: 45px;
+}
+.reason {
+    /* margin: 20px 0; */
+}
+
+.reason h2 {
+    color: #007bff;
+}
+
+.reason p {
+    color: #333;
+}
+
+.get-in-touch {
+    display: block;
+    text-align: center;
+    margin: 30px 0;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
 }

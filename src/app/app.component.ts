@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { MainComponent } from './main/main.component'; 
 import { ServicesComponent } from './services/services.component'; 
 import { AboutComponent } from './about/about.component'; 
+import { ContactComponent } from './contact/contact.component'; 
 import { FooterComponent } from './footer/footer.component'; 
 import { RouterModule } from '@angular/router'; // Import RouterModule for routing
 
@@ -18,6 +19,7 @@ import { RouterModule } from '@angular/router'; // Import RouterModule for routi
     RouterModule, // Import RouterModule to enable routing
     HeaderComponent, 
     MainComponent,
+    ContactComponent,
     ServicesComponent,
     AboutComponent,
     FooterComponent
