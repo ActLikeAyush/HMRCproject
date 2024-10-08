@@ -1,8 +1,11 @@
 .container{
     padding: 5%;
+    margin-top: 90px;
 }
 .head{
-    width: 40%;
+    /* margin-top: 90px; */
+    /* width: 40%; */
+    margin-bottom: 70px;
 
 }
 .allmain{
@@ -45,12 +48,13 @@
 }
 
 .head p {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #333;
-    /* margin-left: 40px; */
-    /* Align paragraphs consistently */
-    line-height: 1.6;
-    font-size: 14px;
+    font-family: "Jost", sans-serif;
+        color: #333;
+        /* margin-left: 40px; */
+        /* Align paragraphs consistently */
+        line-height: 1.6;
+        font-size: 18px;
+        width: 100%;
 }
 
 .img{
