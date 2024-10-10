@@ -344,3 +344,125 @@
     text-decoration: none;
     border-radius: 5px;
 }
+
+
+
+
+
+
+
+
+
+
+/* Container Styling */
+.Data {
+    padding: 5%;
+    background-color: #001F3F;
+    /* Darker shade for a more modern look */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Card Styling */
+.Data .card {
+    width: 250px;
+    /* Fixed width to keep cards uniform */
+    min-height: 300px;
+    /* Ensures uniform height */
+    background-color: #012A4A;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    border-top: 3px solid #00D4FF;
+    /* Stylish border on top */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Hover Effect */
+.Data .card:hover {
+    transform: translateY(-10px);
+    /* Makes the card "lift" on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    /* More intense shadow on hover */
+    border-top: 3px solid #FFC300;
+    /* Change border color on hover */
+}
+
+/* Icon Styling */
+.Data .card span i {
+    font-size: 50px;
+    /* Larger icon for visual impact */
+    color: #00D4FF;
+    /* Make the icon pop */
+    margin-bottom: 15px;
+    transition: color 0.3s ease;
+}
+
+/* Icon Color Change on Hover */
+.Data .card:hover span i {
+    color: #FFC300;
+    /* Change icon color on hover */
+}
+
+/* Title (H1) Styling */
+.Data .card h1 {
+    font-family: 'Poppins', sans-serif;
+    /* Modern font for a professional feel */
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+/* Subtitle (H2) Styling */
+.Data .card h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #B0C4DE;
+}
+
+/* Extra Magic - Before Pseudo-Element */
+.Data .card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(90deg, rgba(0, 255, 255, 0.5), rgba(255, 255, 0, 0.5));
+    /* Magical gradient */
+    animation: glowingBorder 2s infinite ease-in-out;
+}
+
+@keyframes glowingBorder {
+    0% {
+        left: 0;
+    }
+
+    50% {
+        left: 100%;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+/* Ensuring the cards look great on smaller screens */
+@media (max-width: 768px) {
+    .Data {
+        flex-direction: column;
+    }
+
+    .Data .card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
